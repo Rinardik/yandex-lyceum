@@ -1,0 +1,3 @@
+pygt6
+sys
+sqlite3

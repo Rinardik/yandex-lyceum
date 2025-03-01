@@ -1,37 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>MainWindow</class>
- <widget class="QMainWindow" name="MainWindow">
-  <widget class="QWidget" name="centralwidget">
-   <layout class="QVBoxLayout" name="verticalLayout">
-    <item>
-     <widget class="QTableWidget" name="tableWidget"/>
-    </item>
-    <item>
-     <widget class="QHBoxLayout" name="horizontalLayout">
-      <item>
-       <widget class="QPushButton" name="refreshButton">
-        <property name="text">
-         <string>Обновить</string>
-        </property>
-       </widget>
-      </item>
-      <item>
-       <widget class="QPushButton" name="addButton">
-        <property name="text">
-         <string>Добавить</string>
-        </property>
-       </widget>
-      </item>
-      <item>
-       <widget class="QPushButton" name="editButton">
-        <property name="text">
-         <string>Редактировать</string>
-        </property>
-       </widget>
-      </item>
-     </widget>
-    </item>
-   </layout>
-  </widget>
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>467</width>
+    <height>336</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
  </widget>
+ <resources/>
+ <connections/>
 </ui>
